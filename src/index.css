@@ -49,6 +49,11 @@
   padding: 0;
 }
 
+html, body {
+  background-color: var(--color-bg-body);
+  margin: 0;
+}
+
 a,
 a:hover {
   color: unset;
