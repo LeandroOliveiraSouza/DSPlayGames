@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import SectionGames from "../../components/SectionGames";
 import SectionNews from "../../components/SectionNews";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <Header />
         <main>
           <SectionNews />
-          <h1>SectionGames</h1>
+          <SectionGames />
           <h1>SectionRegister</h1>
         </main>
         <h1>Footer</h1>

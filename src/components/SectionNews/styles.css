@@ -11,7 +11,7 @@
 
 .card-news {
   background-color: var(--section-news-card-bg-color);
-  height: 520px;
+  height: 550px;
   border-radius: 8px;
 }
 
@@ -56,4 +56,19 @@
   font-weight: 700;
   padding-top: 12px;
   padding-left: 12px;
+}
+
+.card-news-btn-more {
+  background-color: var(--section-news-btn-bg-color);
+  color: var(--section-news-btn-text-color);
+  max-width: 244px;
+  height: 67px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  margin: 28px 40px 28px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }

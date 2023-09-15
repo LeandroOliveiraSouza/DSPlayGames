@@ -60,6 +60,7 @@ export default function SectionNews() {
         </p>
         <div className="card-news-more">Ler mais...</div>
       </div>
+      <div className="card-news-btn-more">Carregar mais</div>
     </section>
   );
 }
