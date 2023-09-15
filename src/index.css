@@ -8,12 +8,13 @@
 
   --section-news-text-title-color: #797979;
 
-  --section-news-card-bg-color: #797979;
+  --section-news-card-bg-color: #F0F0F0;
   --section-news-card-text-subtitle-color: #38af90;
   --section-news-card-text-summary-color: #797979;
   --section-news-card-text-content-color: #797979;
   --section-news-card-text-more-color: #dd7e92;
   --section-news-card-date-color: #38af90;
+  --section-news-card-border-color: #38af90;
 
   --section-news-btn-bg-color: #dd7e92;
   --section-news-btn-text-color: #fff;
@@ -77,4 +78,12 @@ nav h1 {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
 }
