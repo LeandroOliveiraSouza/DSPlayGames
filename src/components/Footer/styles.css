@@ -3,6 +3,9 @@ footer {
   color: var(--footer-text-color);
   height: 302px;
   font-size: 14px;
+}
+
+.footer-card-info {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,11 +17,22 @@ footer p {
   padding: 35px;
 }
 
-.footer-social-network {
+.footer-card-info ul {
   padding-top: 28px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
-.footer-social-terms {
-  text-align: center;
-  padding-bottom: 30px;
+@media (min-width: 568px) {
+  footer {
+    padding-left: 105px;
+    padding-right: 105px;
+  }
+
+  .footer-card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 65px 105px 0 105px;
+  }
 }

@@ -1,5 +1,9 @@
 #news {
   margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #news h2 {
@@ -61,7 +65,7 @@
 .card-news-btn-more {
   background-color: var(--section-news-btn-bg-color);
   color: var(--section-news-btn-text-color);
-  max-width: 244px;
+  width: 245px;
   height: 67px;
   font-size: 18px;
   font-weight: 700;
@@ -71,4 +75,10 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+@media (min-width: 568px) {
+  .card-news {
+    height: 230px;
+  }
 }

@@ -1,5 +1,10 @@
 #register {
   background-color: var(--section-register-bg-color);
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #register h2 {
@@ -12,6 +17,8 @@
 
 .register-card-container {
   background-color: var(--section-register-card-bg-color);
+  width: 100%;
+  max-width: 790px;
   height: 550px;
   margin: 0 10px 28px 10px;
   border-radius: 8px 8px 0px 0px;
@@ -56,11 +63,14 @@ ul {
 .input-btn {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .input-btn-submit {
   background-color: var(--section-register-btn-bg-submit);
   color: var(--section-register-btn-text-submit);
+  width: 100%;
+  max-width: 244px;
   height: 67px;
   border-radius: 8px;
   border: none;
@@ -72,8 +82,19 @@ ul {
   background-color: var(--section-register-btn-bg-clear);
   color: var(--section-register-btn-text-clear);
   border: 2px solid var(--section-register-btn-border-clear);
+  width: 100%;
+  max-width: 244px;
   height: 67px;
   border-radius: 8px;
   font-size: 18px;
   margin: 20px 30px 30px 30px;
+}
+
+@media (min-width: 568px) {
+  .input-btn {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+  }
 }
