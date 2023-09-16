@@ -1,0 +1,12 @@
+.checkbox-option {
+  color: var(--section-register-btn-text-checkbox);
+  font-size: 16px;
+
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+  padding-left: 10px;
+}

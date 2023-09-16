@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import SectionGames from "../../components/SectionGames";
 import SectionNews from "../../components/SectionNews";
+import SectionRegister from "../../components/SectionRegister";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <main>
           <SectionNews />
           <SectionGames />
-          <h1>SectionRegister</h1>
+          <SectionRegister />
         </main>
         <h1>Footer</h1>
       </body>

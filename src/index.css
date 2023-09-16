@@ -29,15 +29,17 @@
   --section-register-bg-color: #fff;
   --section-register-text-title: #797979;
 
-  --section-register-card-bg-color: #797979;
+  --section-register-card-bg-color: #F0F0F0;
   --section-register-card-input-text-color: #c4c4c4;
   --section-register-card-input-border-color: #797979;
   --section-register-card-text: #797979;
 
   --section-register-btn-bg-submit: #dd7e92;
   --section-register-btn-bg-clear: #fff;
+  --section-register-btn-border-clear: #dd7e92; 
   --section-register-btn-text-submit: #fff;
   --section-register-btn-text-clear: #dd7e92;
+  --section-register-btn-text-checkbox: #797979;
 
   --footer-bg-color: #383838;
   --footer-text-color: #fff;
@@ -86,4 +88,8 @@ nav h1 {
 
 .mb30 {
   margin-bottom: 30px;
+}
+
+.pt50 {
+  padding-top: 50px;
 }
