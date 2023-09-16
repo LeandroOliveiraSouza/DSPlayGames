@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import SectionGames from "../../components/SectionGames";
 import SectionNews from "../../components/SectionNews";
@@ -13,7 +14,7 @@ export default function Home() {
           <SectionGames />
           <SectionRegister />
         </main>
-        <h1>Footer</h1>
+        <Footer />
       </body>
     </>
   );
